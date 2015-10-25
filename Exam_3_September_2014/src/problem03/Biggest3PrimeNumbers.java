@@ -39,7 +39,7 @@ public class Biggest3PrimeNumbers {
 					continue;
 				}
 				
-				for (int k = j + 1; k < numbers.length; k++) {
+				for (int k = j + 1; k < numbersSize; k++) {
 					boolean isThirdNumberPrime = isPrime(numbers[k]);
 					
 					if (!isThirdNumberPrime)
